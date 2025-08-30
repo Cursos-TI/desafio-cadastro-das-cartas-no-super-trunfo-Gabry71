@@ -2,13 +2,13 @@
 
 int main() {
     // ======CARTA 1====== //
-    char estado1[3];                           // estado 
-    char codigo1[4];                           // código das cartas
-    char cidade1[50];                          // nome da cidade
-    unsigned long int populacao1;              // população
-    float area1, pib1;                         // área (km²) e PIB (em bilhões)                                        
-    int pontosTuristicos1;                     // número de pontos turísticos
-    float densidade1, perCapita1, superPoder1; // densidade populacional e PIB per capita             
+    char estado1[3];                            // estado 
+    char codigo1[4];                            // código das cartas
+    char cidade1[50];                           // nome da cidade
+    unsigned long int populacao1;               // população
+    float area1, pib1;                          // área (km²) e PIB (em bilhões)                                        
+    int pontosTuristicos1;                      // número de pontos turísticos
+    float densidade1, perCapita1, superPoder1;  // densidade populacional e PIB per capita             
 
     // ====== CARTA 2 ====== //
     char estado2[3];
@@ -127,4 +127,5 @@ int main() {
     }
     
     return 0;
+
 }
