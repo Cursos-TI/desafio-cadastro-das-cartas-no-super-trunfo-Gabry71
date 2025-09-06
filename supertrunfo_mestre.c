@@ -70,8 +70,8 @@ int main() {
     printf("area: %.2f km2\n", area1);
     printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
-    printf("a densidade populacional %.2f", densidade1);
-    printf("%d","%f", superPoder1);
+    printf("a densidade populacional %.2f"\n, densidade1);
+    printf("%d","%f"\n, superPoder1);
     printf("\n\n");
 
     printf("*** CARTA 2 ***\n");
@@ -82,8 +82,8 @@ int main() {
     printf("area: %.2f km2\n", area2);
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
-    printf("a densidade populacional %.2f", densidade2);
-    superPoder2 = (int) populacao2 + pontosTuristicos2 + (float) perCapita2 + densidade2;
+    printf("a densidade populacional %.2f"\n, densidade2);
+    printf("%d,"f"\n, superPoder2);
     printf("\n\n");
 
           //** comparação das cartas **//
@@ -129,3 +129,4 @@ int main() {
     return 0;
 
 }
+
